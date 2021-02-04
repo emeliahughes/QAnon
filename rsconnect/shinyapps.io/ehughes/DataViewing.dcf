@@ -1,0 +1,13 @@
+name: DataViewing
+title: DataViewing
+username:
+account: ehughes
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3585097
+bundleId: 4182519
+url: https://ehughes.shinyapps.io/DataViewing/
+when: 1612480255.33672
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Data-Wrangling.R

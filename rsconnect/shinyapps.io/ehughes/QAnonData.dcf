@@ -1,0 +1,13 @@
+name: QAnonData
+title: QAnonData
+username:
+account: ehughes
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3585210
+bundleId: 4182533
+url: https://ehughes.shinyapps.io/QAnonData/
+when: 1612480527.08486
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Data-Wrangling.R
