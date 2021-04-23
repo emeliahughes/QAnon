@@ -29,7 +29,7 @@ fulldata <- rbind(savethechildren, saveourchildren, childlivesmatter,
 # select which columns are necessary (check google doc for more details)
 data <- fulldata %>% 
     select(tag, User.Name, Created, Followers.at.Posting, Likes, Comments,
-           Total.Interactions, Description, Image.Text, URL, Photo) 
+           Total.Interactions, Description, Image.Text, URL, Photo, Type) 
 
 # remove the duplicated posts across tags
 # note: only one of the tags is kept, I haven't figured out how to note both 
@@ -57,5 +57,7 @@ shinyServer(function(input, output) {
     output$date <- renderText ({ data[input$num,]$Created })
     
     output$url <- renderText ({ data[input$num,]$URL })
+    
+    output$type <- renderText ({ data[input$num,]$Type })
 
 })

@@ -5,9 +5,9 @@ account: ehughes
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3585210
-bundleId: 4182533
+bundleId: 4182604
 url: https://ehughes.shinyapps.io/QAnonData/
-when: 1612480527.08486
+when: 1612481695.2851
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: Data-Wrangling.R
+ignoredFiles: combineddata.csv|Data-Wrangling.R|instagram data.csv

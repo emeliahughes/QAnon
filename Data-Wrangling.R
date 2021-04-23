@@ -52,3 +52,9 @@ likes_vs_followers <- ggplot(follow_data, aes(x= Followers, y= Likes)) +
   geom_point() + xlim(0,1250000)
 
 plot(likes_vs_followers)
+
+
+
+# Find Frequent Posters in data
+freq_posters <- count(data, User.Name, sort = TRUE)
+freq_posters <- freq_posters %>% filter(n > 1)

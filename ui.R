@@ -13,6 +13,8 @@ shinyUI(fluidPage(
                                          value = 1),
             h3("Date Posted: "),
             textOutput("date"),
+            h3("Type: "),
+            textOutput("type"),
             h3("Username: "),
             textOutput("username"),
             h3("Likes: "),
